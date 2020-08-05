@@ -6,13 +6,13 @@
 * The experiments use: MOA 2019.05.0 (moa.cms.waikato.ac.nz/downloads), jcommon-1.0.23, jfreechart-1.0.19 and javafx-base-11.
 * For the post-processing scripts you will need: Python 3.6.
 
-## Data
+### Data
 
 Two sets of streams are required: real streams and synthetic streams. The former can be downloaded from websites given below. The latter can be generated based on the real ones, using given scripts. 
 
 Send us an email in case of any problem: *mlrep.contact@gmail.com*
 
-### Real streams
+#### Real streams
 
 * ACTIVITY and ACTIVITY_RAW: http://www.cis.fordham.edu/wisdm/dataset.php
 * AIRLINES: https://moa.cms.waikato.ac.nz/datasets/
@@ -30,7 +30,7 @@ Send us an email in case of any problem: *mlrep.contact@gmail.com*
 
 All the data streams should be converted to ARFF files. Make sure that all the real streams are in: ***streams/real***.
 
-### Semi-synthetic streams
+#### Semi-synthetic streams
 
 * Run scripts in ***scripts/gendata*** (you will need ***moa.jar*** for that).
 * The synthetic streams should be generated into: ***streams/synthetic***.
@@ -40,6 +40,9 @@ All the data streams should be converted to ARFF files. Make sure that all the r
 ### Package
 
 We can also provide the whole package with all the data streams on request: *mlrep.contact@gmail.com*
+
+### Testing
+All unit tests can be found in ***tests***.
 
 ### Running experiments
 - In order to conduct experiments set paths in ***src/eval/Evaluator.java*** and run it. You can pick between different experiments in *runInstanceExploitationExperiments()*.
