@@ -37,7 +37,7 @@ All the data streams should be converted to ARFF files. Make sure that all the r
 
 ### Package
 
-We can also provide the whole package with all the data streams on request: *mlrep.contact@gmail.com*
+We can also provide the whole package with all the data streams on request.
 
 ### Testing
 All unit tests can be found in ***tests***.
