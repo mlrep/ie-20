@@ -10,8 +10,6 @@
 
 Two sets of streams are required: real streams and synthetic streams. The former can be downloaded from websites given below. The latter can be generated based on the real ones, using given scripts. 
 
-Send us an email in case of any problem: *mlrep.contact@gmail.com*
-
 #### Real streams
 
 * ACTIVITY and ACTIVITY_RAW: http://www.cis.fordham.edu/wisdm/dataset.php
